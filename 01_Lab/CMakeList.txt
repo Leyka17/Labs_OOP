@@ -1,0 +1,7 @@
+cmake_minimum_required (VERSION 2.6)
+project (1_lab_OOP.exe)
+add_executable(1_lab_OOP.cpp Module.cpp)
+set_target_properties(1_lab_OOP PROPERTIES
+	CXX_STANDARD 14
+        CXX_STANDARD_REQUIRED ON
+	)
